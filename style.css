@@ -9,6 +9,10 @@ h1{
   font-style: italic;
   font-family: cursive;
 }
+  body {
+  animation: pulse 10s infinite;
+}
+}
 @keyframes pulse {
   0% {
     background-color: #001F3F;
