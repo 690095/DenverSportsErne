@@ -9,3 +9,20 @@ h1{
   font-style: italic;
   font-family: cursive;
 }
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  25% {
+    background-color: #99ccff;
+  }
+  50% {
+    background-color: #660066;
+  }
+  75% {
+    background-color: #ffff66;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
